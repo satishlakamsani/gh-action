@@ -1,7 +1,7 @@
 name:first workflow
   on:workflow_dispatch
 jobs:
-    first-job:
+  first-job:
        runs-on:ubuntu-latest
        steps:
            - name:print greeting
